@@ -1,0 +1,128 @@
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+h3{
+    display: inline;
+    font-family: 'Montserrat-bold', sans-serif;
+    
+}
+
+p{
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+    color: #8f8f8f;
+}
+
+svg{
+    height: 200px;
+    width: 200px;
+    
+}
+
+svg path{
+    fill: rgb(19, 17, 17);
+}
+
+svg path:hover{
+    fill: rgb(240, 22, 58) !important;
+}
+
+.heart{
+    height: 200px;
+    width: 200px;
+}
+
+.heart:hover{
+    fill: rgb(255, 73, 73) !important;
+}
+
+.col-lg-4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#testimonials{
+    padding: 7% 18%;
+    text-align: center;
+    background-color: rgb(255, 73, 73) ;
+}
+
+.testimonials-image{
+        width: 20%;
+        border-radius: 100%;
+}
+
+#press{
+    background-color:rgb(255, 73, 73);
+    
+}
+
+.creds-image{
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: 6%;
+    width: 15%;
+}
+
+.carousel-control-prev{
+    margin-left: -80px;
+}
+
+.carousel-control-next{
+    margin-right: -80px;
+}
+
+.card{
+    padding: 10px 10px 10px;
+    left: 3px;
+    right: 3px;
+}
+
+#pricing{
+    background-color: white;
+    padding: 100px 100px 30px;
+}
+
+#cta{
+    margin: 20px auto 120px;
+}
+
+#footer{
+    background-color: white;
+}
+
+.phone{
+    position: absolute;
+    z-index: -1;
+    bottom: -250px;
+    left: 100px;
+
+}
+
+.navbar-nav .nav-link{
+    color: white !important;
+}
+
+
+@media (max-width:1200px){
+
+
+.phone{
+    position:static !important;
+    transform: rotate(0deg) !important;
+    width:80% !important;
+}
+
+.row{
+    text-align: center !important;
+}
+
+.imgx{
+    width:4% !important;
+}
+
+}
